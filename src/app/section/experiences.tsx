@@ -2,9 +2,11 @@ import ExperienceCard from "@/components/experience-card";
 
 export default function Experiences() {
   return (
-    <div className="flex flex-col items-center justify-center py-10 px-10 gap-10 bg-[#3E8DFF]">
-      <p className="text-2xl font-bold tracking-tight">Experiences</p>
-      <div>
+    <div className="flex flex-col items-center justify-center p-10 gap-10 md:gap-20 bg-[#3E8DFF] md:px-72">
+      <p className="text-2xl md:text-4xl font-bold tracking-tight">
+        Experiences
+      </p>
+      <div className="md:flex gap-10">
         <ExperienceCard
           rotate="-rotate-3"
           image="/gci.jpeg"

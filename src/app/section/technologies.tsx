@@ -4,6 +4,10 @@ const images = [
     url: "/icon/git.png",
   },
   {
+    name: "linux",
+    url: "/icon/linux.png",
+  },
+  {
     name: "docker",
     url: "/icon/docker.png",
   },
@@ -43,13 +47,18 @@ const images = [
 
 export default function Technologies() {
   return (
-    <div className="bg-[#64DAEE] flex flex-col items-center justify-center py-20 px-10 gap-10">
-      <p className="text-2xl font-bold tracking-tight">
+    <div className="bg-[#64DAEE] flex flex-col items-center justify-center py-20 px-10 gap-10 md:px-64">
+      <p className="text-2xl md:text-4xl font-bold tracking-tight">
         Technologies that i use
       </p>
-      <div className="flex flex-wrap items-center justify-center gap-5 ">
+      <div className="flex flex-wrap items-center justify-center gap-5 md:gap-12 md:px-36">
         {images.map((item, index) => (
-          <img src={item.url} alt={item.name} key={index} width={46} />
+          <img
+            src={item.url}
+            alt={item.name}
+            key={index}
+            className="w-12 md:w-20"
+          />
         ))}
       </div>
     </div>
