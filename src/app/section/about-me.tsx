@@ -20,28 +20,31 @@ export default function AboutMe() {
       <div className="flex flex-col md:flex-row md:gap-5">
         <SocialMediaCard
           title="Linkedin"
-          link="/"
+          link="https://www.linkedin.com/in/zikri-suanda-61b19a225/"
           image="/icon/linkedin.png"
           classname="-rotate-6 md:rotate-0"
+          target="_blank"
         />
         <SocialMediaCard
           classname="rotate-6 md:rotate-0"
           title="Github"
-          link="/"
+          link="https://github.com/zikrisuanda11"
           image="/icon/github.png"
+          target="_blank"
         />
-        <SocialMediaCard title="Email" link="/" image="/icon/email.png" />
         <SocialMediaCard
           classname="-rotate-12 md:rotate-0"
           title="Instagram"
-          link="/"
+          link="https://www.instagram.com/zikrisuanda090/"
           image="/icon/instagram.png"
+          target="_blank"
         />
         <SocialMediaCard
           classname="rotate-6 md:rotate-0"
           title="GCSB Profile"
-          link="/"
+          link="https://www.cloudskillsboost.google/public_profiles/75df7589-5200-43ec-ac8d-b6ac8ba60a56"
           image="/icon/google.png"
+          target="_blank"
         />
       </div>
     </div>

@@ -5,17 +5,18 @@ export default function SocialMediaCard({
   title,
   link,
   image,
-  rotate,
+  target = "_self",
   classname,
 }: {
   title: string;
   link: string;
   image: string;
-  rotate?: string;
+  target?: string;
   classname?: string;
 }) {
   return (
     <Link
+      target={target}
       href={link}
       className={cn(
         "flex flex-col border-2 border-black bg-white p-10 rounded-md aspect-square shadow-black hover:shadow-none duration-100 translate-x-0 translate-y-0 hover:translate-x-0.5 hover:translate-y-0.5 ",

@@ -34,7 +34,7 @@ export default function page() {
       <DivierReverse color="#3E8DFF" />
       <Experiences />
       <Divider color="#3E8DFF" />
-      <DivierReverse color="#000000" />
+      <DivierReverse color="#000" />
       <Footer />
     </PageContainer>
   );

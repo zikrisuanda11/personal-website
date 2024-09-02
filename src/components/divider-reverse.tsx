@@ -1,6 +1,10 @@
 export default function DivierReverse({ color }: { color: string }) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg
+      className="-mb-2"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
       <path
         fill={color}
         fill-opacity="1"
