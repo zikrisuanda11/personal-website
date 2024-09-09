@@ -64,11 +64,46 @@ export default function Project2() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <Image alt="image" src="/phikocat/1.png" className="" />
-                  <Image alt="image" src="/phikocat/2.png" className="" />
-                  <Image alt="image" src="/phikocat/3.png" className="" />
-                  <Image alt="image" src="/phikocat/4.png" className="" />
-                  <Image alt="image" src="/phikocat/5.png" className="" />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/1.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/2.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/3.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/4.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/5.png"
+                    className=""
+                  />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -98,8 +133,18 @@ export default function Project2() {
         </Drawer>
       </div>
       <div className="bg-contain relative w-62 h-62 py-12 bg-[#383A59] border-2 border-black rounded-md rotate-12 mb-12 md:rotate-0">
-        <Image alt="image" src="/phikocat1.png" className="bg-auto" />
         <Image
+          priority
+          width={1500}
+          height={300}
+          alt="image"
+          src="/phikocat1.png"
+          className="bg-auto"
+        />
+        <Image
+          priority
+          width={300}
+          height={100}
           alt="image"
           src="/phikocat.png"
           className="absolute left-20 -rotate-12 w-40 md:w-44 md:rotate-0 md:-bottom-20"
@@ -138,11 +183,46 @@ export default function Project2() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <Image alt="image" src="/phikocat/1.png" className="" />
-                  <Image alt="image" src="/phikocat/2.png" className="" />
-                  <Image alt="image" src="/phikocat/3.png" className="" />
-                  <Image alt="image" src="/phikocat/4.png" className="" />
-                  <Image alt="image" src="/phikocat/5.png" className="" />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/1.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/2.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/3.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/4.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/phikocat/5.png"
+                    className=""
+                  />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />

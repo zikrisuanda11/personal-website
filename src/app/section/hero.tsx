@@ -27,7 +27,10 @@ export default function Hero() {
         />
       </div>
       <Image
+        width={400}
+        height={100}
         alt="image"
+        priority
         src="/hero.png"
         className="hidden md:block h-[32rem] w-auto "
       />

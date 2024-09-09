@@ -21,6 +21,8 @@ const ExperienceCard = forwardRef<
     >
       <div className="flex items gap-4">
         <Image
+          width={100}
+          height={100}
           alt="image"
           src={image}
           className="rounded-full w-16 border-2 border-black"

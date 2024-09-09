@@ -56,6 +56,8 @@ export default function Technologies() {
       <div className="flex flex-wrap items-center justify-center gap-5 md:gap-12 md:px-36">
         {images.map((item, index) => (
           <Image
+            width={100}
+            height={100}
             src={item.url}
             alt={item.name}
             key={index}

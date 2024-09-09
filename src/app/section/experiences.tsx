@@ -37,7 +37,7 @@ export default function Experiences() {
               image="/gci.jpeg"
               title="PT. Garuda Cyber"
               username="@garuda_cyber"
-              description="PT. Garuda Cyber Indonesia is a Software-as-a-Service (SaaS) company that has been trusted by over 300 partners across Indonesia since 2010. PT. Garuda Cyber Indonesia has established its presence in several major cities in Indonesia"
+              description="PT. Garuda Cyber Indonesia is a Software-as-a-Service (SaaS) company that has been trusted by over 600 partners across Indonesia since 2010. PT. Garuda Cyber Indonesia has established its presence in several major cities in Indonesia"
             />
           </DrawerTrigger>
           <DrawerContent>
@@ -64,11 +64,46 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="">
-                  <Image alt="image" src="/garuda/1.jpeg" className="" />
-                  <Image alt="image" src="/garuda/2.jpg" className="" />
-                  <Image alt="image" src="/garuda/3.jpeg" className="" />
-                  <Image alt="image" src="/garuda/4.png" className="" />
-                  <Image alt="image" src="/garuda/5.jpg" className="" />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/garuda/1.jpeg"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/garuda/2.jpg"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/garuda/3.jpeg"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/garuda/4.png"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/garuda/5.jpg"
+                    className=""
+                  />
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">
@@ -125,11 +160,46 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="aspect-video">
-                  <Image alt="image" src="/bangkit/1.jpg" className="w-full" />
-                  <Image alt="image" src="/bangkit/2.png" className="" />
-                  <Image alt="image" src="/bangkit/3.png" className="" />
-                  <Image alt="image" src="/bangkit/4.png" className="" />
-                  <Image alt="image" src="/bangkit/5.png" className="" />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/bangkit/1.jpg"
+                    className="w-full"
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/bangkit/2.png"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/bangkit/3.png"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/bangkit/4.png"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/bangkit/5.png"
+                    className=""
+                  />
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">
@@ -189,11 +259,39 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="aspect-video">
-                  <Image alt="image" src="/gdsc/1.jpg" className="w-full" />
-                  <Image alt="image" src="/gdsc/2.jpg" className="" />
-                  <Image alt="image" src="/gdsc/3.jpeg" className="" />
-                  <Image alt="image" src="/gdsc/4.jpg" className="" />
-                  {/* <Image alt="image" src="/gdsc/5.png" className="" /> */}
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/gdsc/1.jpg"
+                    className="w-full"
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/gdsc/2.jpg"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/gdsc/3.jpeg"
+                    className=""
+                  />
+                  <Image
+                    width={1200}
+                    height={600}
+                    priority
+                    alt="image"
+                    src="/gdsc/4.jpg"
+                    className=""
+                  />
+                  {/* <Image width={1200} height={600} priority alt="image" src="/gdsc/5.png" className="" /> */}
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">

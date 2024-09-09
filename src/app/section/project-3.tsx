@@ -65,33 +65,48 @@ export default function Project3() {
               >
                 <CarouselContent>
                   <Image
+                    priority
+                    width={1200}
+                    height={600}
                     alt="image"
                     src="/smartinternship/1.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={1200}
+                    height={600}
                     alt="image"
                     src="/smartinternship/2.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={1200}
+                    height={600}
                     alt="image"
                     src="/smartinternship/3.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={1200}
+                    height={600}
                     alt="image"
                     src="/smartinternship/4.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={1200}
+                    height={600}
                     alt="image"
                     src="/smartinternship/5.png"
                     className=""
                   />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                {/* <CarouselPrevious /> */}
+                {/* <CarouselNext /> */}
               </Carousel>
               <ScrollArea className=" basis-1/2 overflow-auto h-[80%] px-3">
                 <p className="mb-3 text-xl">
@@ -127,9 +142,11 @@ export default function Project3() {
           ></div>
         </div>
         <Image
-          alt="image"
-          src="smart_internship.png"
+          priority
           width={200}
+          height={100}
+          alt="image"
+          src="/smart_internship.png"
           className="absolute right-4 z-20 -bottom-12"
         />
       </div>
@@ -166,33 +183,48 @@ export default function Project3() {
               >
                 <CarouselContent>
                   <Image
+                    priority
+                    width={600}
+                    height={300}
                     alt="image"
                     src="/smartinternship/1.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={600}
+                    height={300}
                     alt="image"
                     src="/smartinternship/2.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={600}
+                    height={300}
                     alt="image"
                     src="/smartinternship/3.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={600}
+                    height={300}
                     alt="image"
                     src="/smartinternship/4.png"
                     className=""
                   />
                   <Image
+                    priority
+                    width={600}
+                    height={300}
                     alt="image"
                     src="/smartinternship/5.png"
                     className=""
                   />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                {/* <CarouselPrevious /> */}
+                {/* <CarouselNext /> */}
               </Carousel>
               <div className="overflow-auto h-[80%] px-3 my-5">
                 <div className="flex flex-wrap gap-3 mb-5">

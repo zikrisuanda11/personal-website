@@ -65,14 +65,49 @@ export default function Project1() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <Image alt="image" src="/perpustakaan/1.png" className="" />
-                  <Image alt="image" src="/perpustakaan/2.png" className="" />
-                  <Image alt="image" src="/perpustakaan/3.png" className="" />
-                  <Image alt="image" src="/perpustakaan/4.png" className="" />
-                  <Image alt="image" src="/perpustakaan/5.png" className="" />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/1.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/2.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/3.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/4.png"
+                    className=""
+                  />
+                  <Image
+                    priority
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/5.png"
+                    className=""
+                  />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                {/* <CarouselPrevious /> */}
+                {/* <CarouselNext /> */}
               </Carousel>
               <ScrollArea className=" basis-1/2 overflow-auto h-[80%] px-3">
                 <p className="mb-3 text-xl">
@@ -114,6 +149,8 @@ export default function Project1() {
         >
           <Image
             alt="image"
+            width={300}
+            height={100}
             src="/perpustakaan.png"
             className="absolute right-1 w-40 md:w-52"
           />
@@ -152,14 +189,44 @@ export default function Project1() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <Image alt="image" src="/perpustakaan/1.png" className="" />
-                  <Image alt="image" src="/perpustakaan/2.png" className="" />
-                  <Image alt="image" src="/perpustakaan/3.png" className="" />
-                  <Image alt="image" src="/perpustakaan/4.png" className="" />
-                  <Image alt="image" src="/perpustakaan/5.png" className="" />
+                  <Image
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/1.png"
+                    className=""
+                  />
+                  <Image
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/2.png"
+                    className=""
+                  />
+                  <Image
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/3.png"
+                    className=""
+                  />
+                  <Image
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/4.png"
+                    className=""
+                  />
+                  <Image
+                    width={600}
+                    height={300}
+                    alt="image"
+                    src="/perpustakaan/5.png"
+                    className=""
+                  />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                {/* <CarouselPrevious /> */}
+                {/* <CarouselNext /> */}
               </Carousel>
               <div className="overflow-auto h-[80%] px-3 my-5">
                 <div className="flex flex-wrap gap-3 mb-5">

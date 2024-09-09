@@ -25,7 +25,13 @@ export default function SocialMediaCard({
       )}
     >
       <div className="flex flex-col items-center justify-center gap-2 ">
-        <Image alt="image for icon" src={image} className="w-16" />
+        <Image
+          width={100}
+          height={100}
+          alt="image for icon"
+          src={image}
+          className="w-16"
+        />
         <p className="font-bold">{title}</p>
       </div>
       <div></div>
