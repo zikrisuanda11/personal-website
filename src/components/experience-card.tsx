@@ -1,21 +1,24 @@
-export default function ExperienceCard({
-  image,
-  title,
-  username,
-  description,
-  rotate,
-}: {
-  image: string;
-  title: string;
-  username: string;
-  description: string;
-  rotate?: string;
-}) {
+import { forwardRef } from "react";
+import { cn } from "@/lib/utils";
+
+const ExperienceCard = forwardRef<
+  HTMLButtonElement,
+  {
+    image: string;
+    title: string;
+    username: string;
+    description: string;
+    className?: string;
+  }
+>(({ image, title, username, description, className }) => {
   return (
     <div
-      className={`bg-white border-2 border-black rounded-md p-4 space-y-3 ${rotate} shadow-black hover:shadow-none duration-100 translate-x-0 translate-y-0 hover:translate-x-0.5 hover:translate-y-0.5 `}
+      className={cn(
+        `bg-white text-start border-2 border-black rounded-md p-4 space-y-3 shadow-black hover:shadow-none duration-100 translate-x-0 translate-y-0 hover:translate-x-0.5 hover:translate-y-0.5`,
+        className,
+      )}
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items gap-4">
         <img src={image} className="rounded-full w-16 border-2 border-black" />
         <div>
           <p>{title}</p>
@@ -25,4 +28,6 @@ export default function ExperienceCard({
       <p>{description}</p>
     </div>
   );
-}
+});
+
+export default ExperienceCard;
