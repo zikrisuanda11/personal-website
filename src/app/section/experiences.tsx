@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -63,11 +64,11 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="">
-                  <img src="/garuda/1.jpeg" className="" />
-                  <img src="/garuda/2.jpg" className="" />
-                  <img src="/garuda/3.jpeg" className="" />
-                  <img src="/garuda/4.png" className="" />
-                  <img src="/garuda/5.jpg" className="" />
+                  <Image alt="image" src="/garuda/1.jpeg" className="" />
+                  <Image alt="image" src="/garuda/2.jpg" className="" />
+                  <Image alt="image" src="/garuda/3.jpeg" className="" />
+                  <Image alt="image" src="/garuda/4.png" className="" />
+                  <Image alt="image" src="/garuda/5.jpg" className="" />
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">
@@ -124,11 +125,11 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="aspect-video">
-                  <img src="/bangkit/1.jpg" className="w-full" />
-                  <img src="/bangkit/2.png" className="" />
-                  <img src="/bangkit/3.png" className="" />
-                  <img src="/bangkit/4.png" className="" />
-                  <img src="/bangkit/5.png" className="" />
+                  <Image alt="image" src="/bangkit/1.jpg" className="w-full" />
+                  <Image alt="image" src="/bangkit/2.png" className="" />
+                  <Image alt="image" src="/bangkit/3.png" className="" />
+                  <Image alt="image" src="/bangkit/4.png" className="" />
+                  <Image alt="image" src="/bangkit/5.png" className="" />
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">
@@ -188,11 +189,11 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="aspect-video">
-                  <img src="/gdsc/1.jpg" className="w-full" />
-                  <img src="/gdsc/2.jpg" className="" />
-                  <img src="/gdsc/3.jpeg" className="" />
-                  <img src="/gdsc/4.jpg" className="" />
-                  {/* <img src="/gdsc/5.png" className="" /> */}
+                  <Image alt="image" src="/gdsc/1.jpg" className="w-full" />
+                  <Image alt="image" src="/gdsc/2.jpg" className="" />
+                  <Image alt="image" src="/gdsc/3.jpeg" className="" />
+                  <Image alt="image" src="/gdsc/4.jpg" className="" />
+                  {/* <Image alt="image" src="/gdsc/5.png" className="" /> */}
                 </CarouselContent>
               </Carousel>
               <div className="py-5 md:px-3 md:basis-1/2 ">

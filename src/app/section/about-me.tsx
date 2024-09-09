@@ -8,13 +8,13 @@ export default function AboutMe() {
           About Me
         </p>
         <p className="md:text-xl">
-          Hi, I'm Zikri Ahmad Suanda, an active student at Universitas Mulia.
-          I've made it through 7 semesters so far, and I've learned quite a lot
-          along the way. I'm a full-stack developer who also knows the tools
-          used by DevOps. Up until now, Laravel has been my go-to stack, but I'm
-          slowly transitioning to more modern technologies like React and
-          ExpressJS—what people call the ultimate "SIGMA Stack 😎". That's a bit
-          about me!
+          Hi, I&#39;m Zikri Ahmad Suanda, an active student at Universitas
+          Mulia. I&#39;ve made it through 7 semesters so far, and I&#39;ve
+          learned quite a lot along the way. I&#39;m a full-stack developer who
+          also knows the tools used by DevOps. Up until now, Laravel has been my
+          go-to stack, but I&#39;m slowly transitioning to more modern
+          technologies like React and ExpressJS—what people call the ultimate
+          &quot;SIGMA Stack 😎&quot;. That&#39;s a bit about me!
         </p>
       </div>
       <div className="flex flex-col md:flex-row md:gap-5">

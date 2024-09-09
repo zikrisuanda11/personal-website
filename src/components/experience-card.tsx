@@ -1,5 +1,6 @@
 import { forwardRef } from "react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const ExperienceCard = forwardRef<
   HTMLButtonElement,
@@ -19,7 +20,11 @@ const ExperienceCard = forwardRef<
       )}
     >
       <div className="flex items gap-4">
-        <img src={image} className="rounded-full w-16 border-2 border-black" />
+        <Image
+          alt="image"
+          src={image}
+          className="rounded-full w-16 border-2 border-black"
+        />
         <div>
           <p>{title}</p>
           <p className="text-gray-500">{username}</p>
@@ -29,5 +34,7 @@ const ExperienceCard = forwardRef<
     </div>
   );
 });
+
+ExperienceCard.displayName = "ExperienceCard";
 
 export default ExperienceCard;

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -63,11 +64,11 @@ export default function Project2() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/phikocat/1.png" className="" />
-                  <img src="/phikocat/2.png" className="" />
-                  <img src="/phikocat/3.png" className="" />
-                  <img src="/phikocat/4.png" className="" />
-                  <img src="/phikocat/5.png" className="" />
+                  <Image alt="image" src="/phikocat/1.png" className="" />
+                  <Image alt="image" src="/phikocat/2.png" className="" />
+                  <Image alt="image" src="/phikocat/3.png" className="" />
+                  <Image alt="image" src="/phikocat/4.png" className="" />
+                  <Image alt="image" src="/phikocat/5.png" className="" />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -76,8 +77,8 @@ export default function Project2() {
                 <p className="mb-3 text-xl">
                   Phikocat is a cutting-edge digital platform tailored to
                   simplify and enhance the ordering process for pet-related
-                  products and services. Whether you're a pet owner looking for
-                  grooming, food, or medical services, Phikocat provides an
+                  products and services. Whether you&apos;re a pet owner looking
+                  for grooming, food, or medical services, Phikocat provides an
                   intuitive, seamless experience to ensure your pets get the
                   care and supplies they need. This solution offers convenience
                   and efficiency, making it easy to access a wide range of
@@ -97,8 +98,9 @@ export default function Project2() {
         </Drawer>
       </div>
       <div className="bg-contain relative w-62 h-62 py-12 bg-[#383A59] border-2 border-black rounded-md rotate-12 mb-12 md:rotate-0">
-        <img src="/phikocat1.png" className="bg-auto" />
-        <img
+        <Image alt="image" src="/phikocat1.png" className="bg-auto" />
+        <Image
+          alt="image"
           src="/phikocat.png"
           className="absolute left-20 -rotate-12 w-40 md:w-44 md:rotate-0 md:-bottom-20"
         />
@@ -136,11 +138,11 @@ export default function Project2() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/phikocat/1.png" className="" />
-                  <img src="/phikocat/2.png" className="" />
-                  <img src="/phikocat/3.png" className="" />
-                  <img src="/phikocat/4.png" className="" />
-                  <img src="/phikocat/5.png" className="" />
+                  <Image alt="image" src="/phikocat/1.png" className="" />
+                  <Image alt="image" src="/phikocat/2.png" className="" />
+                  <Image alt="image" src="/phikocat/3.png" className="" />
+                  <Image alt="image" src="/phikocat/4.png" className="" />
+                  <Image alt="image" src="/phikocat/5.png" className="" />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -157,8 +159,8 @@ export default function Project2() {
                 <p className="mb-3">
                   Phikocat is a cutting-edge digital platform tailored to
                   simplify and enhance the ordering process for pet-related
-                  products and services. Whether you're a pet owner looking for
-                  grooming, food, or medical services, Phikocat provides an
+                  products and services. Whether you&apos;re a pet owner looking
+                  for grooming, food, or medical services, Phikocat provides an
                   intuitive, seamless experience to ensure your pets get the
                   care and supplies they need. This solution offers convenience
                   and efficiency, making it easy to access a wide range of

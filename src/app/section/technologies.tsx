@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const images = [
   {
     name: "git",
@@ -53,7 +55,7 @@ export default function Technologies() {
       </p>
       <div className="flex flex-wrap items-center justify-center gap-5 md:gap-12 md:px-36">
         {images.map((item, index) => (
-          <img
+          <Image
             src={item.url}
             alt={item.name}
             key={index}

@@ -1,4 +1,5 @@
 import Button from "@/components/button";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -25,7 +26,11 @@ export default function Hero() {
           target="_blank"
         />
       </div>
-      <img src="/hero.png" className="hidden md:block h-[32rem] w-auto " />
+      <Image
+        alt="image"
+        src="/hero.png"
+        className="hidden md:block h-[32rem] w-auto "
+      />
     </div>
   );
 }

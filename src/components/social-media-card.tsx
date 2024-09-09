@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export default function SocialMediaCard({
   title,
@@ -24,7 +25,7 @@ export default function SocialMediaCard({
       )}
     >
       <div className="flex flex-col items-center justify-center gap-2 ">
-        <img src={image} className="w-16" />
+        <Image alt="image for icon" src={image} className="w-16" />
         <p className="font-bold">{title}</p>
       </div>
       <div></div>

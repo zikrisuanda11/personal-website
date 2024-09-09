@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -63,11 +64,31 @@ export default function Project3() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/smartinternship/1.png" className="" />
-                  <img src="/smartinternship/2.png" className="" />
-                  <img src="/smartinternship/3.png" className="" />
-                  <img src="/smartinternship/4.png" className="" />
-                  <img src="/smartinternship/5.png" className="" />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/1.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/2.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/3.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/4.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/5.png"
+                    className=""
+                  />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -105,7 +126,8 @@ export default function Project3() {
             style={{ backgroundImage: `url('/smartinternship2.png')` }}
           ></div>
         </div>
-        <img
+        <Image
+          alt="image"
           src="smart_internship.png"
           width={200}
           className="absolute right-4 z-20 -bottom-12"
@@ -143,11 +165,31 @@ export default function Project3() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/smartinternship/1.png" className="" />
-                  <img src="/smartinternship/2.png" className="" />
-                  <img src="/smartinternship/3.png" className="" />
-                  <img src="/smartinternship/4.png" className="" />
-                  <img src="/smartinternship/5.png" className="" />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/1.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/2.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/3.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/4.png"
+                    className=""
+                  />
+                  <Image
+                    alt="image"
+                    src="/smartinternship/5.png"
+                    className=""
+                  />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />

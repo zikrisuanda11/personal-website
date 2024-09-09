@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { IoMdLink } from "react-icons/io";
 import Autoplay from "embla-carousel-autoplay";
 import {
@@ -64,11 +65,11 @@ export default function Project1() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/perpustakaan/1.png" className="" />
-                  <img src="/perpustakaan/2.png" className="" />
-                  <img src="/perpustakaan/3.png" className="" />
-                  <img src="/perpustakaan/4.png" className="" />
-                  <img src="/perpustakaan/5.png" className="" />
+                  <Image alt="image" src="/perpustakaan/1.png" className="" />
+                  <Image alt="image" src="/perpustakaan/2.png" className="" />
+                  <Image alt="image" src="/perpustakaan/3.png" className="" />
+                  <Image alt="image" src="/perpustakaan/4.png" className="" />
+                  <Image alt="image" src="/perpustakaan/5.png" className="" />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -111,7 +112,8 @@ export default function Project1() {
           className="bg-cover h-24 md:h-32 w-auto rounded-b-md rounded-x-md border-b-2 border-x-2 border-black relative"
           style={{ backgroundImage: `url('/perpustakaan3.png')` }}
         >
-          <img
+          <Image
+            alt="image"
             src="/perpustakaan.png"
             className="absolute right-1 w-40 md:w-52"
           />
@@ -150,11 +152,11 @@ export default function Project1() {
                 opts={{ loop: true }}
               >
                 <CarouselContent>
-                  <img src="/perpustakaan/1.png" className="" />
-                  <img src="/perpustakaan/2.png" className="" />
-                  <img src="/perpustakaan/3.png" className="" />
-                  <img src="/perpustakaan/4.png" className="" />
-                  <img src="/perpustakaan/5.png" className="" />
+                  <Image alt="image" src="/perpustakaan/1.png" className="" />
+                  <Image alt="image" src="/perpustakaan/2.png" className="" />
+                  <Image alt="image" src="/perpustakaan/3.png" className="" />
+                  <Image alt="image" src="/perpustakaan/4.png" className="" />
+                  <Image alt="image" src="/perpustakaan/5.png" className="" />
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
