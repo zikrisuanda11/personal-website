@@ -22,7 +22,6 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 
 import ExperienceCard from "@/components/experience-card";
-import SkeletonImage from "@/components/skeleton-image";
 
 const imageLoader = ({
   src,
