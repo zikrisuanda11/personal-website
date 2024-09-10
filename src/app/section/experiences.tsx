@@ -22,6 +22,19 @@ import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 
 import ExperienceCard from "@/components/experience-card";
+import SkeletonImage from "@/components/skeleton-image";
+
+const imageLoader = ({
+  src,
+  width,
+  quality,
+}: {
+  src: any;
+  width: any;
+  quality: any;
+}) => {
+  return `https://example.com/${src}?w=${width}&q=${quality || 75}`;
+};
 
 export default function Experiences() {
   return (
@@ -64,7 +77,16 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="">
+                  {/* <SkeletonImage */}
+                  {/*   width={1200} */}
+                  {/*   height={600} */}
+                  {/*   priority */}
+                  {/*   alt="image" */}
+                  {/*   src="/garuda/1.jpeg" */}
+                  {/* /> */}
                   <Image
+                    placeholder="blur"
+                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
                     width={1200}
                     height={600}
                     priority
@@ -73,6 +95,8 @@ export default function Experiences() {
                     className=""
                   />
                   <Image
+                    placeholder="blur"
+                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
                     width={1200}
                     height={600}
                     priority
@@ -81,6 +105,8 @@ export default function Experiences() {
                     className=""
                   />
                   <Image
+                    placeholder="blur"
+                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
                     width={1200}
                     height={600}
                     priority
@@ -89,6 +115,8 @@ export default function Experiences() {
                     className=""
                   />
                   <Image
+                    placeholder="blur"
+                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
                     width={1200}
                     height={600}
                     priority
@@ -97,6 +125,8 @@ export default function Experiences() {
                     className=""
                   />
                   <Image
+                    placeholder="blur"
+                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
                     width={1200}
                     height={600}
                     priority
