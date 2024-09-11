@@ -76,16 +76,9 @@ export default function Experiences() {
                 opts={{ loop: true }}
               >
                 <CarouselContent className="">
-                  {/* <SkeletonImage */}
-                  {/*   width={1200} */}
-                  {/*   height={600} */}
-                  {/*   priority */}
-                  {/*   alt="image" */}
-                  {/*   src="/garuda/1.jpeg" */}
-                  {/* /> */}
                   <Image
                     placeholder="blur"
-                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     width={1200}
                     height={600}
                     priority
@@ -95,7 +88,7 @@ export default function Experiences() {
                   />
                   <Image
                     placeholder="blur"
-                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     width={1200}
                     height={600}
                     priority
@@ -105,7 +98,7 @@ export default function Experiences() {
                   />
                   <Image
                     placeholder="blur"
-                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     width={1200}
                     height={600}
                     priority
@@ -115,7 +108,7 @@ export default function Experiences() {
                   />
                   <Image
                     placeholder="blur"
-                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     width={1200}
                     height={600}
                     priority
@@ -125,7 +118,7 @@ export default function Experiences() {
                   />
                   <Image
                     placeholder="blur"
-                    blurDataURL="data:text/plain;base64,SGVsbG8sIFdvcmxkIQ=="
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     width={1200}
                     height={600}
                     priority
@@ -193,6 +186,8 @@ export default function Experiences() {
                     width={1200}
                     height={600}
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     alt="image"
                     src="/bangkit/1.jpg"
                     className="w-full"
@@ -202,6 +197,8 @@ export default function Experiences() {
                     height={600}
                     priority
                     alt="image"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     src="/bangkit/2.png"
                     className=""
                   />
@@ -210,12 +207,16 @@ export default function Experiences() {
                     height={600}
                     priority
                     alt="image"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     src="/bangkit/3.png"
                     className=""
                   />
                   <Image
                     width={1200}
                     height={600}
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     priority
                     alt="image"
                     src="/bangkit/4.png"
@@ -225,6 +226,8 @@ export default function Experiences() {
                     width={1200}
                     height={600}
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     alt="image"
                     src="/bangkit/5.png"
                     className=""
@@ -292,6 +295,8 @@ export default function Experiences() {
                     width={1200}
                     height={600}
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     alt="image"
                     src="/gdsc/1.jpg"
                     className="w-full"
@@ -301,6 +306,8 @@ export default function Experiences() {
                     height={600}
                     priority
                     alt="image"
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     src="/gdsc/2.jpg"
                     className=""
                   />
@@ -308,6 +315,8 @@ export default function Experiences() {
                     width={1200}
                     height={600}
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     alt="image"
                     src="/gdsc/3.jpeg"
                     className=""
@@ -316,6 +325,8 @@ export default function Experiences() {
                     width={1200}
                     height={600}
                     priority
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAQAAAC896x4AAAADUlEQVR42mM8tooBCgANzAFynNQwbgAAAABJRU5ErkJggg=="
                     alt="image"
                     src="/gdsc/4.jpg"
                     className=""
