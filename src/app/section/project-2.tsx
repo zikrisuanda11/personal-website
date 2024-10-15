@@ -11,12 +11,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import { Carousel, CarouselContent } from "@/components/ui/carousel";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -105,8 +100,6 @@ export default function Project2() {
                     className=""
                   />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
               </Carousel>
               <ScrollArea className=" basis-1/2 overflow-auto h-[80%] px-3">
                 <p className="mb-3 text-xl">
@@ -224,8 +217,6 @@ export default function Project2() {
                     className=""
                   />
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
               </Carousel>
               <div className="overflow-auto h-[80%] px-3 my-5">
                 <div className="flex flex-wrap gap-3 mb-5">
