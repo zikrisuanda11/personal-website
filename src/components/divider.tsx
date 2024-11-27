@@ -1,9 +1,9 @@
 export default function Divider({ color }: { color: string }) {
   return (
     <svg
-      className="-mt-3"
+      className="-mt-3 "
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 1440 320"
+      viewBox="0 10 1440 200"
     >
       <path
         fill={color}
